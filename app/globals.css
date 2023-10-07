@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flexCenter {
+  @apply flex items-center justify-center;
+}
+
+.flexBetween {
+  @apply flex items-center justify-between;
+}
+
+.header {
+  @apply flexBetween sticky top-0 z-50 w-full bg-white px-4 py-5 sm:px-6;
+}
+
+.overlay {
+  @apply fixed left-0 top-0 z-[40] h-full w-full bg-[rgba(0,0,0,0.3)];
+}
+
+.mobile__nav {
+  @apply absolute left-1/2 top-[130%] block min-w-[80%] max-w-[90%] -translate-x-1/2 bg-white py-6 shadow-2xl md:hidden;
+}
+
+.nav__link-border {
+  @apply before:absolute before:bottom-[-200%] before:left-0 before:right-0 before:block before:h-[5px] before:bg-gradient-to-r before:from-primary before:to-secondary before:opacity-0 before:transition-all;
+}
+
+.hero__img-desktop {
+  @apply absolute right-0 top-0 h-fit w-full max-w-[650px];
+}
+
+.hero__phones-desktop {
+  @apply absolute right-0 top-0 z-[10] h-[400px] w-[300px] lg:h-[700px] lg:w-[500px];
+}
+
+.hero__img-mobile {
+  @apply h-full w-full;
+}
+
+.hero__phones-mobile {
+  @apply absolute right-0 top-[-29%] z-[10] h-full w-full object-contain;
+}
