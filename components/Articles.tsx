@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Articles = () => {
   return (
-    <section className="bg-gray px-5 pt-44 xs:px-10 lg:px-28">
+    <section className="bg-gray px-5 pb-10 pt-44 xs:px-10 lg:px-28">
       <h1 className="mb-14 text-center text-4xl text-darkBlue lg:text-left">
         Latest Articles
       </h1>

@@ -4,7 +4,7 @@ import { Facebook, Instagram, Pinterest, Twitter, YouTube } from './Icons';
 
 const Footer = () => {
   return (
-    <footer className="mt-10 grid bg-darkBlue px-2 py-5 xs:px-16 md:px-40 md:py-10 lg:grid-cols-3">
+    <footer className="grid bg-darkBlue px-2 py-5 xs:px-16 md:px-40 md:py-10 lg:grid-cols-3">
       <div className="flexCenter flex-col lg:block">
         <Logo textColor="#fff" />
 

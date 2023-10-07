@@ -1,4 +1,4 @@
-import { Overlay, Navbar, Hero, About, Articles, Footer } from '@/components';
+import { About, Articles, Footer, Hero, Navbar, Overlay } from '@/components';
 
 const Home = () => {
   return (

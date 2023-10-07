@@ -1,10 +1,10 @@
 'use client';
 
-import Link from 'next/link';
-import { Button, Logo } from './';
 import { navLinks } from '@/constants';
 import { mobileNavCtx } from '@/contexts/mobileNavCtx';
+import Link from 'next/link';
 import { useContext } from 'react';
+import { Button, Logo } from './';
 
 const Navbar = () => {
   const { isOpen, setIsOpen } = useContext(mobileNavCtx);

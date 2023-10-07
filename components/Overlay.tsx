@@ -1,7 +1,7 @@
 'use client';
 
-import { useContext } from 'react';
 import { mobileNavCtx } from '@/contexts/mobileNavCtx';
+import { useContext } from 'react';
 
 const Overlay = () => {
   const { isOpen } = useContext(mobileNavCtx);

@@ -1,10 +1,10 @@
-import Logo from './Logo';
-import Button from './Button';
-import Overlay from './Overlay';
-import Navbar from './Navbar';
-import Hero from './Hero';
 import About from './About';
 import Articles from './Articles';
+import Button from './Button';
 import Footer from './Footer';
+import Hero from './Hero';
+import Logo from './Logo';
+import Navbar from './Navbar';
+import Overlay from './Overlay';
 
-export { Logo, Button, Overlay, Navbar, Hero, About, Articles, Footer };
+export { About, Articles, Button, Footer, Hero, Logo, Navbar, Overlay };
