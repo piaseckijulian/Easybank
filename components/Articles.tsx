@@ -20,9 +20,9 @@ const Articles = () => {
             />
             <div className="px-[10px] pb-8">
               <p className="mb-2 mt-8 text-xs text-grayish">{creator}</p>
-              <h3 className="mb-4 cursor-pointer text-2xl leading-tight text-darkBlue transition-all hover:text-primary">
+              <h2 className="mb-4 cursor-pointer text-2xl leading-tight text-darkBlue transition-all hover:text-primary">
                 {title}
-              </h3>
+              </h2>
               <p className="text-grayish">{content}</p>
             </div>
           </article>

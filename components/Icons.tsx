@@ -1,6 +1,6 @@
 export const Facebook = () => {
   return (
-    <a href="/" className="group">
+    <a href="/" className="group" aria-label="Facebook">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
         <path
           fill="#FFF"
@@ -14,7 +14,7 @@ export const Facebook = () => {
 
 export const YouTube = () => {
   return (
-    <a href="/" className="group">
+    <a href="/" className="group" aria-label="YouTube">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
         <path
           fill="#FFF"
@@ -28,7 +28,7 @@ export const YouTube = () => {
 
 export const Twitter = () => {
   return (
-    <a href="/" className="group">
+    <a href="/" className="group" aria-label="Twitter">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
         <path
           fill="#FFF"
@@ -42,7 +42,7 @@ export const Twitter = () => {
 
 export const Pinterest = () => {
   return (
-    <a href="/" className="group">
+    <a href="/" className="group" aria-label="Pinterest">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
         <path
           fill="#FFF"
@@ -56,7 +56,7 @@ export const Pinterest = () => {
 
 export const Instagram = () => {
   return (
-    <a href="/" className="group">
+    <a href="/" className="group" aria-label="Instagram">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
         <path
           fill="#FFF"

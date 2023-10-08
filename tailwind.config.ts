@@ -15,7 +15,7 @@ const config: Config = {
         primary: 'hsl(136, 65%, 51%)',
         secondary: 'hsl(192, 70%, 51%)',
         darkBlue: 'hsl(233, 26%, 24%)',
-        grayish: 'hsl(233, 8%, 62%)',
+        grayish: 'hsl(0, 0%, 20%)',
         lightGrayish: 'hsl(220, 16%, 96%)',
         gray: 'hsl(0, 0%, 98%)'
       }

@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <header className="header">
-      <Link href="/">
+      <Link href="/" aria-label="Easybank">
         <Logo textColor="#2D314D" />
       </Link>
 

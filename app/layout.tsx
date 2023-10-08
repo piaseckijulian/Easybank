@@ -7,7 +7,8 @@ const publicSans = Public_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Easybank landing page',
-  description: ''
+  description:
+    'This is a solution to the Easybank landing page challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.'
 };
 
 interface Props {
