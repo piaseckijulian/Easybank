@@ -1,6 +1,12 @@
 'use client';
 
-import { Dispatch, SetStateAction, createContext, useState } from 'react';
+import {
+  Dispatch,
+  PropsWithChildren,
+  SetStateAction,
+  createContext,
+  useState
+} from 'react';
 
 interface ctxInterface {
   isOpen: boolean;
@@ -12,11 +18,7 @@ export const mobileNavCtx = createContext<ctxInterface>({
   setIsOpen: () => {}
 });
 
-interface Props {
-  children: React.ReactNode;
-}
-
-const MobileNavProvider = ({ children }: Props) => {
+const MobileNavProvider = ({ children }: PropsWithChildren) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
